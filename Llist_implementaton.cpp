@@ -111,12 +111,12 @@ int main()
     Node *head=NULL;
 
 
-   InsertBegin(&head,5);
+    InsertBegin(&head,5);
     InsertBegin(&head,6);
     InsertBegin(&head,7);
     InsertBegin(&head,8);
-  InsertMiddle(&head,3,2);
-  //  InsertLast(&head,3);
+    InsertMiddle(&head,3,2);
+    InsertLast(&head,3);
     show(head);
     return 0;
 }
